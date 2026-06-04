@@ -3,7 +3,7 @@ import { useState } from "react";
 import Link from 'next/link';
 import Sidebar from '@/app/components/Sidebar';
 import AddButton from '@/app/components/AddButton';
-export default function Home() {
+export default function Page() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
